@@ -1,3 +1,3 @@
-# React-Week1-Challenges
+# React-Fix-Its
 
 ## branch *fixit1*
