@@ -48,7 +48,7 @@ const AddPerson = ({ people, setPeople }) => {
 
   const addHandler = (e) => {
     
-      const newPeople = [...people];
+      const newPeople = people;
       newPeople.push({
         nameInput,
         ageInput,
@@ -62,7 +62,7 @@ const AddPerson = ({ people, setPeople }) => {
     <form>
       <input value={nameInput} onChange={(e) => nameInput()} />
       <input value={ageInput} onChange={(e) => ageInput()} />
-      <button type="submit">add person</button>
+      <button>add person</button>
     </form>
   );
 };
