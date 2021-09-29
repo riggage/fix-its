@@ -1,6 +1,6 @@
-import FixIt1 from "./Fix-it/Fix-it-1";
-import FixIt2 from "./Fix-it/Fix-it-2";
-import FixIt3 from "./Fix-it/Fix-it-3";
+import FixIt1 from "./Fix-it/Fix-It-1";
+import FixIt2 from "./Fix-it/Fix-It-2";
+import FixIt3 from "./Fix-it/Fix-It-3";
 
 const App = () => {
   return (
